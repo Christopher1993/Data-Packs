@@ -1,0 +1,59 @@
+﻿{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Craft Nether Quartz Ore",
+        "description": "Craft a quartz ore using netherrack and quartz",
+        "icon": {
+            "item": "minecraft:nether_quartz_ore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "get_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "quartz",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "get_netherrack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "netherrack",
+                        "count": {
+                            "min": 8,
+                            "max": 8
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_quartz"
+        ],
+        [
+            "get_netherrack"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "christopher:nether_quartz_ore"
+        ],
+        "experience": 10000
+    }
+}
