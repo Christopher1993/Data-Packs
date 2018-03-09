@@ -2,14 +2,14 @@
     "type": "crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:blaze_powder"
+            "item": "minecraft:clownfish"
         },
         {
-            "item": "minecraft:blaze_powder"
+            "item": "minecraft:egg"
         }
     ],
     "result": {
-        "item": "minecraft:blaze_rod",
+        "item": "minecraft:tropical_fish_spawn_egg",
         "count": 1
     }
 }
