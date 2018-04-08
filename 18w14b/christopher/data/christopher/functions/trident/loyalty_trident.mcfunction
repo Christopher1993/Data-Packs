@@ -1,0 +1,1 @@
+give @p minecraft:trident{Unbreakable:1b,ench:[{id:65,lvl:3},{id:66,lvl:5}]} 1
