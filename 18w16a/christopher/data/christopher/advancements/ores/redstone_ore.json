@@ -1,0 +1,59 @@
+﻿{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Craft Redstone Ore",
+        "description": "Craft Redstone Ore",
+        "icon": {
+            "item": "minecraft:redstone_ore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "get_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "redstone",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "get_cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "cobblestone",
+                        "count": {
+                            "min": 8,
+                            "max": 8
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_redstone"
+        ],
+        [
+            "get_cobblestone"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "christopher:redstone_ore"
+        ],
+        "experience": 100
+    }
+}
