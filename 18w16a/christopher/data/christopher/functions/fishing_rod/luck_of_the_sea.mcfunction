@@ -1,0 +1,1 @@
+give @p minecraft:fishing_rod{display:{Name:"{\"text\":\"Luck of the sea Fishing Rod\"}"},ench:[{id:61,lvl:32767},{id:62,lvl:5}],Unbreakable:1}
