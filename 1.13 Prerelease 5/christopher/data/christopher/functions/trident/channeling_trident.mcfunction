@@ -1,0 +1,1 @@
+give @p minecraft:trident{Unbreakable:1b,Enchantments:[{id:"minecraft:channeling",lvl:1},{id:"minecraft:impaling",lvl:5},{id:"minecraft:loyalty",lvl:3}]} 1

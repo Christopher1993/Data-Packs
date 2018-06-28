@@ -1,0 +1,1 @@
+give @p minecraft:fishing_rod{display:{Name:"{\"text\":\"Luck of the sea Fishing Rod\"}"},Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:32767},{id:"minecraft:lure",lvl:5}],Unbreakable:1}
